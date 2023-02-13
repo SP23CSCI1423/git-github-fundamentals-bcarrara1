@@ -1,0 +1,44 @@
+Operating systems: An interface between the software, hardware, and computer parts. 
+Examples: MacOS, Windows, Ubuntu, Raspbian, Linux.
+
+Unix systems: An operating system common to things like Ubuntu, Solaris, etc. Developed in the 70s by AT&T for programmers developing software. Unix distinguishes itself from its predecessors as the first portable operating system because almost the entire operating system is written in the C programming language, which allows Unix to operate on numerous platforms.
+
+CLIs vs. GUIs
+Command Line Interface (CLI): A command line program that allows the user to enter text input to execute operating system functions.
+Graphical User Interface (GUI): A user interface that allows the user to interact with the computer via graphical icons and other visual objects.
+
+Source code: Any set of components in a computer language that make up the program code and will be executed and run.
+
+Open source vs. proprietary/closed source
+Open source: The source code is open to the general public for access and use.
+Proprietary/closed source: The source code is not available to the general public.
+
+Machine language: A machine language is the language understood by a computer, read by the CPU (central processing unit) and composed of ones and zeroes.
+
+Binary: Binary is a base-2 number system made up of ones and zeroes.
+
+Executables: (.exe files) A file containing instructions and data meant for performing a sequence of tasks on a computer.
+
+Interpreted vs. Compiled languages
+Interpreted: Goes line by line to run and execute each command. Significantly slower than compiled languages. Ex: Ruby, Python, JavaScript.
+Compiled: Converted directly into machine code that the processor can run. Tend to be faster and more efficient to execute. Everything is compiled and then run, even after changes have been made. Ex: C, C++, Haskell, Rust
+
+Strongly typed vs Loosely typed
+Strongly typed: Variables and objects within the language must be specified.
+Loosely typed: You don’t have to explicitly specify types of variables and objects.
+
+High level vs. low level languages
+High level: Easier for programmers to understand. Programmer friendly. Ex: C, Java, Python
+Low level: Easier for machines to understand. Machine friendly. Don’t need to be compiled.
+
+Remote vs local (computer/storage/computations/access/etc.)
+Remote: The storage or whatever is being accessed is physically somewhere else.
+Local: The storage is whatever is being accessed is on the computer being used by the user.
+
+SSH: Short for Secure Shell, the ssh command allows for a secure encrypted connection between two hosts over an insecure network. It also allows a user to log into another computer or device remotely.
+
+Version control systems: A category of software tools that help record changes made to files by keeping track of modifications done in the code. It tracks changes.
+
+FTP/SFTP:
+FTP: File Transfer Protocol. An internet service that makes a connection between another server or computer, allowing the transfer of data/files.
+SFTP: Secure File Transfer Protocol. Part of the SSH protocol suite, it provides a secure file transfer over SSH.
