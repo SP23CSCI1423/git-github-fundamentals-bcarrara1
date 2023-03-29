@@ -13,6 +13,15 @@ if($x1 > $x){
     print("you and your friend are the same hight.\n");
 }
 }
+sub SignUp{
+print(names);
+print("do you want to add a name");
+chomp(y = <>);
+if(y eq "yes"){
+    print("what is the name(all one line please)");
+    chomp(y2 = <>);
+}
+}
 
 
 sub Multiplicationquiz{
@@ -25,7 +34,7 @@ sub Multiplicationquiz{
     $random7 = int(rand(100));
     $random8 = int(rand(100));
     $sum ;
-    $x = i++;
+    $x = 0;
     print("question 1\n");
     print("what is $random + $random2\n");
     $answer = <>;
@@ -36,56 +45,57 @@ sub Multiplicationquiz{
     print("what is $random - $random2\n");
      $answer = <>;
     if($answer == $random - $random2){
-        $sum = $x + 1;
+        $sum2 = $x + 1;
     }
     print("question 3\n");
     print("what is $random * $random2\n");
      $answer = <>;
     if($answer == $random * $random2){
-        $sum = $x + 1;
+        $sum3 = $x + 1;
     }
     print("question 4\n");
     print("what is $random3 + $random4\n");
      $answer = <>;
     if($answer == $random3 + $random4){
-        $sum = $x + 1;
+        $sum4 = $x + 1;
     }
     print("question 5\n");
     print("what is $random3 - $random4\n");
      $answer = <>;
     if($answer == $random3 - $random4){
-        $sum = $x + 1;
+        $sum5 = $x + 1;
     }
     print("question 6\n");
     print("what is $random5 * $random6\n");
      $answer = <>;
     if($answer == $random5 * $random6){
-        $sum = $ + 1;
+        $sum6 = $x+ 1;
     }
     print("question 7\n");
     print("what is $random5 + $random6\n");
      $answer = <>;
     if($answer == $random5 + $random6){
-       $sum = $ + 1;
+       $sum7 = $x + 1;
     }
     print("question 8\n");
     print("what is $random5 - $random6\n");
      $answer = <>;
     if($answer == $random5 - $random6){
-        $sum =$x + 1;
+        $sum8 =$x + 1;
     }
     print("question 9\n");
     print("what is $random5 * $random6\n");
      $answer = <>;
     if($answer == $random5 * $random6){
-        $sum = $x + 1;
+        $sum9 = $x + 1;
     }
     print("question 10\n");
     print("what is $random7 + $random8\n");
      $answer = <>;
     if($answer == $random7 + $random8){
-        $sum = $x + 1;
+        $sum10 = $x + 1;
     }
-    print("$sum\n");
+    sum11 = sum + sum2 + sum3 + sum4 + sum5 + sum6 + sum8 + sum9 + sum10;
+    print("$sum11\n");
 }
 1.
